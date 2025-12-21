@@ -16,8 +16,9 @@
 }
 
 .Main-title {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 200px;
+    width: auto;
     margin: auto;
 }
 
@@ -30,7 +31,35 @@
 }
 
 .images {
-    padding:10px;
-    margin: auto;
+    display: block;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
 }
+
+ul {
+    box-sizing: border-box;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+li {
+    display: inline;
+
+}
+
+#list1 {
+    margin: 0 48px 0 75px;
+}
+
+#list2 {
+    margin-right: 25px;
+}
+
+#list3 {
+    margin-right: 13px;
+}
+
+
+
 
